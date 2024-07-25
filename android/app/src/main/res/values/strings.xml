@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">food</string>
+    <string name="title_activity_main">food</string>
+    <string name="package_name">com.loginfood.pps</string>
+    <string name="custom_url_scheme">com.loginfood.pps</string>
+    <string name="server_client_id">895911652659-28t9afjd350jog9igj6al8n32o5q39ou.apps.googleusercontent.com</string>
+</resources>

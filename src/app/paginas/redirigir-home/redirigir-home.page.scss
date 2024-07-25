@@ -1,0 +1,23 @@
+ion-content {
+    --background: #F2F2F2;
+}
+
+.container-btns {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    ion-button {
+        width: 50%;
+        height: 100px;
+        padding: 20px;
+        --background: #F29F05; /* customOrange2 */
+        border-radius: 9999px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+}
