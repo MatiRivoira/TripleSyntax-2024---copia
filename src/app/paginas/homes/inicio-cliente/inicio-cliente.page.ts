@@ -27,6 +27,9 @@ export class InicioClientePage implements OnInit {
   spinnerActivo: boolean = false;
   seEnlisto: boolean = false;
   pantalla: number = 1;
+
+  verReserva = false;
+
   // PANTALLA 2
   mensajeToolBar = "BIENVENIDO";
   clienteSentado = false;

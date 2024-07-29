@@ -27,6 +27,8 @@ export class LoginPage implements OnInit {
   email:any;
   password:any;
 
+  inicio:any;
+
   constructor(private formBuilder: FormBuilder, private auth: AuthService, private firestore: FirebaseService, private audioService: AudioService, private router: Router) {
     this.formLogin = this.formBuilder.group({
       email: ['', [Validators.required, Validators.pattern(this.emailPattern)]],
